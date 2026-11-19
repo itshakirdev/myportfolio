@@ -1,0 +1,117 @@
+{
+  "name": "Shakir Ali",
+  "title": "CS Undergraduate | Aspiring AI Developer",
+  "heroA": "Building",
+  "heroB": "Smart Software",
+  "tagline": "I build responsive web interfaces and database-driven applications with clean, maintainable code.",
+  "about": "Computer Science undergraduate in my 5th semester at Sukkur IBA University, building desktop and web applications with C++, Java, SQL, HTML/CSS and JavaScript.",
+  "obj": "My goal is to become an AI Developer: applying a strong software foundation and growing my AI expertise to build innovative, user-centric applications that solve real-world problems.",
+  "skills": [
+    "C++",
+    "Java",
+    "HTML/CSS",
+    "JavaScript",
+    "SQL",
+    "DBMS",
+    "OOP",
+    "Critical Thinking"
+  ],
+  "stats": [
+    {
+      "v": "5th",
+      "l": "Semester"
+    },
+    {
+      "v": "3.67",
+      "l": "Foundation CGPA"
+    },
+    {
+      "v": "4+",
+      "l": "Projects Built"
+    }
+  ],
+  "email": "itshakir.dev@gmail.com",
+  "phone": "+92 3340675656",
+  "loc": "Ghotki, Pakistan",
+  "gh": "https://github.com/itshakirdev",
+  "li": "https://www.linkedin.com/in/itshakir/",
+  "photo": "",
+  "exp": [
+    {
+      "k": "Education",
+      "t": "Bachelor of Computer Science",
+      "o": "Sukkur IBA University",
+      "p": "2024 – 2028",
+      "d": "Currently in 5th semester, focusing on software development, OOP, data structures and databases."
+    },
+    {
+      "k": "Education",
+      "t": "STHP Foundation Semester",
+      "o": "Sukkur IBA University",
+      "p": "CGPA 3.67",
+      "d": ""
+    },
+    {
+      "k": "Course",
+      "t": "Interaction Design and UX/UI Principles",
+      "o": "Coursera",
+      "p": "",
+      "d": ""
+    },
+    {
+      "k": "Course",
+      "t": "Prompt Engineering for ChatGPT",
+      "o": "Coursera",
+      "p": "",
+      "d": ""
+    },
+    {
+      "k": "Activity",
+      "t": "Active Member, Public Speaking Society",
+      "o": "Sukkur IBA University",
+      "p": "",
+      "d": "Building communication and presentation skills."
+    },
+    {
+      "k": "Activity",
+      "t": "Coding Competition, Gen AI Workshop, SIBATHON 2026",
+      "o": "Participant",
+      "p": "",
+      "d": ""
+    }
+  ],
+  "proj": [
+    {
+      "n": "Voting System",
+      "cat": "Console App",
+      "tech": "C++",
+      "d": "Console-based voting system with voter registration, vote casting and file-based result management.",
+      "link": "",
+      "img": ""
+    },
+    {
+      "n": "Store Management System",
+      "cat": "Desktop App",
+      "tech": "Java, OOP, Swing",
+      "d": "Inventory and sales management application built with Java, OOP principles and Java Swing.",
+      "link": "",
+      "img": ""
+    },
+    {
+      "n": "Doctor Appointment Booking",
+      "cat": "Desktop App",
+      "tech": "Java, DSA",
+      "d": "Appointment scheduling and patient record management application implementing data structures and algorithms.",
+      "link": "",
+      "img": ""
+    },
+    {
+      "n": "Amazon Page Clone",
+      "cat": "Web Design",
+      "tech": "HTML, CSS, JavaScript",
+      "d": "Responsive front-end clone of the Amazon homepage.",
+      "link": "",
+      "img": ""
+    }
+  ]
+}

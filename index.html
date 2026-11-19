@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Personal portfolio – CS undergraduate, web and software projects.">
+<title>Shakir Ali – Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="wrap nav">
+  <a href="#home" class="logo" id="logo"></a>
+  <nav class="links"><a href="#projects">Projects</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+  <div class="tools"><button class="icon" id="theme" aria-label="Toggle theme">◐</button><button class="btn ghost" id="editBtn">✎ Edit</button><a class="btn" href="#contact">Let’s contact</a></div>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+  <div>
+    <h1 id="hello"></h1>
+    <p class="lead" id="tagline"></p>
+    <p class="role" id="title"></p>
+    <div class="cta"><a class="btn" href="#projects">View Projects ↓</a><a class="btn ghost" href="#contact">Contact Me</a></div>
+  </div>
+  <div class="photo"><div id="photoBox"></div></div>
+</div></section>
+<section id="projects"><div class="wrap">
+  <div class="sh"><h2>My Works</h2><div class="filters" id="filters"></div></div>
+  <div class="works" id="proj"></div>
+</div></section>
+<section id="about" style="padding-top:0"><div class="wrap about">
+  <div class="aphoto" id="aphoto"></div>
+  <div>
+    <p class="label">About</p><h2 id="aname"></h2>
+    <p class="big" id="about-t"></p><p class="muted" id="obj"></p>
+    <div class="chips" id="skills"></div><div class="social" id="social"></div>
+  </div>
+</div><div class="wrap stats" id="stats"></div></section>
+<section id="experience" style="padding-top:0"><div class="wrap"><div class="sh"><h2>Experience.</h2></div><div id="exp"></div></div></section>
+<section id="contact" class="contact"><div class="wrap">
+  <p class="label">Contact</p><h2 class="huge">Let’s work<br>together.</h2>
+  <div id="cmail"></div><div class="cta" id="cbtns"></div><ul class="info" id="info"></ul>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span id="foot"></span><a href="#home">Back to top ↑</a></div></footer>
+
+<div id="shade"></div>
+<aside id="drawer" aria-label="Edit portfolio">
+  <div class="dh"><h2>Edit Portfolio</h2><button class="icon" id="closeBtn" aria-label="Close">✕</button></div>
+  <div id="form">
+    <fieldset><legend>Profile Photo</legend>
+      <div class="pv"><div id="pvBox"></div><div><input type="file" id="photoIn" accept="image/*"><button type="button" class="btn ghost sm" id="rmPhoto" style="margin-top:8px">Remove photo</button></div></div>
+    </fieldset>
+    <fieldset><legend>Introduction</legend>
+            <label>Full name</label><input id="f-name">
+      <label>Title / Role</label><input id="f-title">
+      <label>Short tagline</label><textarea id="f-tagline"></textarea>
+      <label>About me</label><textarea id="f-about" rows="4"></textarea>
+      <label>Career interests / objective</label><textarea id="f-obj" rows="3"></textarea>
+      <label>Skills (comma separated)</label><input id="f-skills">
+    </fieldset>
+    <fieldset><legend>Highlight Stats</legend><div class="two"><div><label>Stat 1 value</label><input id="s-v0"></div><div><label>Stat 1 label</label><input id="s-l0"></div></div><div class="two"><div><label>Stat 2 value</label><input id="s-v1"></div><div><label>Stat 2 label</label><input id="s-l1"></div></div><div class="two"><div><label>Stat 3 value</label><input id="s-v2"></div><div><label>Stat 3 label</label><input id="s-l2"></div></div></fieldset>
+    <fieldset><legend>Contact &amp; Links</legend>
+      <label>Email</label><input id="f-email" type="email">
+      <label>Phone</label><input id="f-phone">
+      <label>Location</label><input id="f-loc">
+      <label>GitHub URL</label><input id="f-gh">
+      <label>LinkedIn URL</label><input id="f-li">
+    </fieldset>
+    <fieldset><legend>Experience</legend><div id="expRows"></div><button type="button" class="btn ghost sm" id="addExp">+ Add experience</button></fieldset>
+    <fieldset><legend>Projects</legend><div id="projRows"></div><button type="button" class="btn ghost sm" id="addProj">+ Add project</button></fieldset>
+  </div>
+  <div class="df"><button class="btn ghost sm" id="reset">Reset</button><button class="btn ghost sm" id="exportBtn" title="Download profile.json">⬇ Export</button><button class="btn ghost sm" id="importBtn">⬆ Import</button><input type="file" id="importIn" accept=".json,application/json" hidden><button class="btn sm" id="saveBtn">Save Changes</button></div>
+</aside>
+
+<script src="js/app.js"></script>
+</body>
+</html>
